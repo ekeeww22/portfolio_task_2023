@@ -4,10 +4,15 @@
 
 .main_bg .main .profile .img {
     background:url(../images/profile.jpg) no-repeat center; background-size:cover; width:200px; height:200px; border-radius:50%; border:5px solid #fff;
-    
+    animation:profile 2s linear infinite alternate;
 }
-
-.main_bg .main .profile .title {}
+@keyframes profile {
+    0% {transform:translateY(0);}
+    100% {transform:translateY(-30px);}
+}
+.main_bg .main .profile .title {
+    font-size:2rem; font-weight:700; background:linear-gradient(45deg, )
+}
 .main_bg .main .profile .loading {}
 .main_bg .main .profile .name {}
 .main_bg .main .profile .icon {}
