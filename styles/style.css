@@ -1,5 +1,6 @@
 .main_bg {background:url(../images/7598163.jpg) no-repeat center; background-size:cover;}
 .main_bg .main {width:1260px; margin:0 auto; padding:200px;}
+.main_bg .main > * { margin-bottom:20px;}
 .main_bg .main .profile {display:flex; flex-flow:column nowrap; align-items: center;}
 
 .main_bg .main .profile .img {
@@ -11,7 +12,16 @@
     100% {transform:translateY(-30px);}
 }
 .main_bg .main .profile .title {
-    font-size:2rem; font-weight:700; background:linear-gradient(45deg, )
+    font-size:2rem; font-weight:700; background:linear-gradient(45deg, white, pink, coral, skyblue, lime, white);
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-size:400%; animation:text_bg 10s linear alternate infinite;
+}
+
+@keyframes text_bg {
+    0% {background-position-x:0;}
+    100% {background-position-x:200%;}
 }
 .main_bg .main .profile .loading {}
 .main_bg .main .profile .name {}
