@@ -26,4 +26,5 @@
 .main_bg .main .profile .loading {}
 .main_bg .main .profile .name {}
 .main_bg .main .profile .icon {}
+.main_bg .main .profile .icon:hover {cursor:pointer;}
 .main_bg .main .profile .icon img {width:25px; height:25px;}
