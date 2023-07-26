@@ -1,0 +1,14 @@
+.main_bg {background:url(../images/7598163.jpg) no-repeat center; background-size:cover;}
+.main_bg .main {width:1260px; margin:0 auto; padding:200px;}
+.main_bg .main .profile {display:flex; flex-flow:column nowrap; align-items: center;}
+
+.main_bg .main .profile .img {
+    background:url(../images/profile.jpg) no-repeat center; background-size:cover; width:200px; height:200px; border-radius:50%; border:5px solid #fff;
+    
+}
+
+.main_bg .main .profile .title {}
+.main_bg .main .profile .loading {}
+.main_bg .main .profile .name {}
+.main_bg .main .profile .icon {}
+.main_bg .main .profile .icon img {width:25px; height:25px;}
