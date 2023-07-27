@@ -45,13 +45,13 @@
 /* portfolio 2023 */
 .main_bg .pf_2023_bg_wrap { padding:100px 0;}
 .main_bg .pf_2023_bg_wrap .pf_2023_bg_1 {
-    height:200px; background:url(../images/bg2.png) repeat-x; 
-    transform:rotate(-10deg) ; 
+    height:200px; width:150%; background:url(../images/bg2.png) repeat-x; 
+    transform:rotate(-10deg) translateX(-100px) ; 
     animation:pf_bg 10s linear infinite;
 }
 .main_bg .pf_2023_bg_wrap .pf_2023_bg_2 {
-    height:200px; background:rgba(0,0,0,0.8) url(../images/bg3.png) repeat-x; 
-    transform:rotate(10deg); 
+    height:200px; width:200%; background:rgba(0,0,0,0.8) url(../images/bg3.png) repeat-x; 
+    transform:rotate(10deg) translateX(-100px) ; 
     animation:pf_bg 10s linear infinite reverse;
 }
 /* 코카콜라 프로젝트 */
