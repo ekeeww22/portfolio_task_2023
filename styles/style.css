@@ -1,5 +1,5 @@
 .main_bg {
-    background:url(../images/7598163.jpg) fixed center; background-size:cover;/*  display:flex; flex-flow:column nowrap; align-items: center; justify-content: center; */}
+    background:url(../images/7598163.jpg) fixed center; background-size:cover;}
 /* profile */
 .main_bg .profile {
     height:100%; display:flex; flex-flow:column nowrap; justify-content: center; align-items: center; padding:250px 0 100px;}
@@ -35,7 +35,7 @@
 .main_bg .nav {
     margin:0 auto; width:30px; height:25px; display:flex; flex-flow:column nowrap; justify-content:space-between;} 
 .main_bg .nav span {
-    width:100%; height:5px; background:#000; border-radius:4px; transition:all 0.3s;}
+    width:100%; height:5px; background:#0f0f0f; border-radius:4px; transition:all 0.3s;}
 .main_bg .nav span:nth-child(1) {top:0;}
 .main_bg .nav span:nth-child(2) {}
 .main_bg .nav span:nth-child(3) {bottom:0;}
@@ -57,7 +57,7 @@
 /* 코카콜라 프로젝트 */
 .main_bg .project_wrap {max-width:1260px; margin:0 auto; padding:150px 0; }
 .main_bg .project_wrap .project {display:flex; flex-flow:row nowrap; justify-content: space-between; }
-.main_bg .project_wrap .project a {height:350px; width:25%;
+.main_bg .project_wrap .project a {height:350px; width:calc(25% - 21px / 4);
     display:flex; flex-flow:column nowrap;
     border-radius:100px 100px 0 0; 
     background:url(../images/profile.jpg) center; background-size:auto 100%; margin-right:7px;
