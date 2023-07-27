@@ -1,7 +1,7 @@
 .main_bg {
-    background:url(../images/7598163.jpg) fixed center; background-size:cover; display:flex; flex-flow:column nowrap; justify-content:space-around; align-items:center; padding:200px 0;}
+    background:url(../images/7598163.jpg) fixed center; background-size:cover; display:flex; flex-flow:column nowrap; align-items: center;}
 /* profile */
-.main_bg .profile {height:100%; display:flex; flex-flow:column nowrap; justify-content: center; align-items: center;}
+.main_bg .profile {height:100%; display:flex; flex-flow:column nowrap; justify-content: center; align-items: center; padding:250px 0 100px;}
 .main_bg .profile .photo {width:200px; height:200px; overflow:hidden; border:5px solid #fff; border-radius:50%; animation:photo 1.5s linear infinite alternate;}
 .main_bg .profile .photo img {width:100%; position:relative; top:-20px;}
 .main_bg .profile h1 {
@@ -42,61 +42,32 @@
 .main_bg .nav:hover span:nth-child(3) {transform:translateY(-10px) rotate(-45deg);}
 
 /* portfolio 2023 */
-.main_bg .pf_2023_bg_wrap {width:100%;}
+.main_bg .pf_2023_bg_wrap { padding:100px 0;}
 .main_bg .pf_2023_bg_wrap .pf_2023_bg_1 {
-    height:200px; background:url(../images/bg2.png) repeat-x;
+    height:200px; background:url(../images/bg2.png) repeat-x; 
     transform:rotate(-10deg) ; 
     animation:pf_bg 10s linear infinite;
 }
 .main_bg .pf_2023_bg_wrap .pf_2023_bg_2 {
-    height:200px; background:rgba(0,0,0,0.8) url(../images/bg3.png) repeat-x;
+    height:200px; background:rgba(0,0,0,0.8) url(../images/bg3.png) repeat-x; 
     transform:rotate(10deg); 
     animation:pf_bg 10s linear infinite reverse;
-    
 }
 /* 코카콜라 프로젝트 */
-.main_bg .project_wrap {max-width:1260px; margin:0 auto; padding:150px 0;}
-.main_bg .project_wrap .project {display:flex; flex-flow:row nowrap; justify-content: space-between; align-items: center;}
-.main_bg .project_wrap .project a {
+.main_bg .project_wrap {max-width:1260px; margin:0 auto; padding:150px 0; }
+.main_bg .project_wrap .project {display:flex; flex-flow:row nowrap; justify-content: space-between; }
+.main_bg .project_wrap .project a {height:350px; width:25%;
     display:flex; flex-flow:column nowrap;
-    border-radius:100px 100px 0 0; height:350px; 
-    background:url(../images/profile.jpg) no-repeat center; background-size:auto 100%;  margin:7px; 
+    border-radius:100px 100px 0 0; 
+    background:url(../images/profile.jpg) center; background-size:auto 100%; margin-right:7px;
     transition:all 0.3s;}
+    .main_bg .project_wrap .project a:last-child {margin-right:0;}
 .main_bg .project_wrap .project a .project_photo {height:100%;}
 .main_bg .project_wrap .project a .intro {background:#fff; padding:20px; text-align: center;}
 .main_bg .project_wrap .project a .intro h1 {font-weight:600;}
 .main_bg .project_wrap .project a .intro p {line-height:2;}
 .main_bg .project_wrap .project a:hover {
     background-size:auto 105%; box-shadow:5px 5px 10px rgba(0,0,0,0.8);}
-
-/*  */
-    .project {padding:150px 0; margin:0 auto; max-width:1300px;}
-    .project .project_contents {
-        display:grid; 
-        grid-template-columns:repeat(4,1fr);
-    }
-    .project .project_contents a {
-        background:#fff url(./images/web.png) no-repeat center;
-        background-size:auto 100%;
-        border-top-left-radius:100px;
-        border-top-right-radius: 100px;
-        height:350px; position:relative;
-        margin:7px; transition:all 0.3s;
-    }
-    .project .project_contents a .intro {
-        background:#fff; position:absolute; bottom:0; width:100%; left:0;
-        padding:20px; text-align:center;
-    }
-    .project .project_contents a .intro h1 {font-weight:600; }
-    .project .project_contents a .intro h2 {line-height:2;}
-    .project .project_contents a .intro p {}
-
-    .project .project_contents a:hover {
-        background-size:auto 105%;
-        box-shadow:5px 5px 10px rgba(0,0,0,0.8);
-    }
-    footer {text-transform:capitalize;padding:50px 0 200px; color:#fff; text-align:center; line-height:1.5; font-size:2rem; text-shadow:0 0 4px #333;}
-/*  */
 /* footer */
 .main_bg footer {color:#fff; text-align:center; font-size:2rem; line-height:1.5; text-shadow:0 0 5px #222;}
 /* animation */
