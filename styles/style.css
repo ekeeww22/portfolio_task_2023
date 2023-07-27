@@ -55,7 +55,7 @@
     animation:pf_bg 10s linear infinite reverse;
 }
 /* 코카콜라 프로젝트 */
-.main_bg .project_wrap {max-width:1260px; margin:0 auto; padding:150px 0; }
+.main_bg .project_wrap {max-width:1260px; margin:0 auto; padding:150px 0;}
 .main_bg .project_wrap .project {display:flex; flex-flow:row nowrap; justify-content: space-between; }
 .main_bg .project_wrap .project a {height:350px; width:calc(25% - 21px / 4);
     display:flex; flex-flow:column nowrap;
@@ -64,9 +64,10 @@
     transition:all 0.3s;}
     .main_bg .project_wrap .project a:last-child {margin-right:0;}
 .main_bg .project_wrap .project a .project_photo {height:100%;}
-.main_bg .project_wrap .project a .intro {background:#fff; padding:20px; text-align: center;}
-.main_bg .project_wrap .project a .intro h1 {font-weight:600;}
-.main_bg .project_wrap .project a .intro p {line-height:2;}
+.main_bg .project_wrap .project a .intro {width:100%; background:#fff; padding:20px; text-align: center; }
+.main_bg .project_wrap .project a .intro h1 {font-weight:600; }
+.main_bg .project_wrap .project a .intro p:nth-child(2) {line-height:2;}
+
 .main_bg .project_wrap .project a:hover {
     background-size:auto 105%; box-shadow:5px 5px 10px rgba(0,0,0,0.8);}
 /* footer */
