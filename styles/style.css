@@ -1,5 +1,5 @@
 .main_bg {
-    background:url(../images/7598163.jpg) fixed center; background-size:cover;}
+    background:url(../images/7598163.jpg) fixed center; background-size:cover;  }
 /* profile */
 .main_bg .profile {
     height:100%; display:flex; flex-flow:column nowrap; justify-content: center; align-items: center; padding:250px 0 100px;}
@@ -32,8 +32,7 @@
 .main_bg .profile .sns a:nth-child(2):hover > .sns_name {opacity:1;}
 .main_bg .profile .sns a:nth-child(3):hover > .sns_name {opacity:1;}
 /* nav */
-.main_bg .nav {
-    margin:0 auto; width:30px; height:25px; display:flex; flex-flow:column nowrap; justify-content:space-between;} 
+.main_bg .nav {margin:0 auto; width:30px; height:25px; display:flex; flex-flow:column nowrap; justify-content:space-between;} 
 .main_bg .nav span {
     width:100%; height:5px; background:#0f0f0f; border-radius:4px; transition:all 0.3s;}
 .main_bg .nav span:nth-child(1) {top:0;}
@@ -55,20 +54,19 @@
     animation:pf_bg 10s linear infinite reverse;
 }
 /* 코카콜라 프로젝트 */
-.main_bg .project_wrap {max-width:1260px; margin:0 auto; padding:150px 0;}
-.main_bg .project_wrap .project {display:flex; flex-flow:row nowrap; justify-content: space-between; }
-.main_bg .project_wrap .project a {height:350px; width:calc(25% - 21px / 4);
+.main_bg .project_wrap {max-width:1260px; margin:0 auto; padding:150px 0;display:flex; flex-flow:row nowrap; justify-content: space-between; }
+.main_bg .project_wrap a {height:350px; width:calc(25% - 21px / 4);
     display:flex; flex-flow:column nowrap;
     border-radius:100px 100px 0 0; 
     background:url(../images/profile.jpg) center; background-size:auto 100%; margin-right:7px;
     transition:all 0.3s;}
-    .main_bg .project_wrap .project a:last-child {margin-right:0;}
-.main_bg .project_wrap .project a .project_photo {height:100%;}
-.main_bg .project_wrap .project a .intro {width:100%; background:#fff; padding:20px; text-align: center; }
-.main_bg .project_wrap .project a .intro h1 {font-weight:600; }
-.main_bg .project_wrap .project a .intro p:nth-child(2) {line-height:2;}
+    .main_bg .project_wrap a:last-child {margin-right:0;}
+.main_bg .project_wrap a .project_photo {height:100%;}
+.main_bg .project_wrap a .intro {width:100%; background:#fff; padding:20px; text-align: center; }
+.main_bg .project_wrap a .intro h1 {font-weight:600; }
+.main_bg .project_wrap a .intro p:nth-child(2) {line-height:2;}
 
-.main_bg .project_wrap .project a:hover {
+.main_bg .project_wrap a:hover {
     background-size:auto 105%; box-shadow:5px 5px 10px rgba(0,0,0,0.8);}
 /* footer */
 .main_bg footer {
